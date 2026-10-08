@@ -1,0 +1,10 @@
+{
+  "name": "veritas-ap-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Veritas - Enterprise Accounts Payable Audit Gateway",
+  "scripts": {
+    "build": "npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "python run_server.py"
+  }
+}

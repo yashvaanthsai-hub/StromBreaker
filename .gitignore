@@ -1,0 +1,29 @@
+# Environment Variables & Secrets
+.env
+.env.local
+*.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# SQLite databases & temp storage
+*.db
+*.db-shm
+*.db-wal
+storage/reports/*.pdf
+
+# Node / Frontend artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vercel
+.turbo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
